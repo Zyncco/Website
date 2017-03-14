@@ -1,0 +1,66 @@
+- name: "Amir Omidi"
+  aka: "aaomidi"
+  avatar: ""
+  title: "Project Lead and Developer"
+  about: >
+    I'm a student studying Computer Sciences at Drexel University. I love
+    trying out new technologies, frameworks and gadgets. My career goal is to
+    be a software engineer at a top tech firm.
+  sites:
+    github: "https://github.com/aaomidi"
+    personal:
+    - "https://aaomidi.com"
+
+- name: "Brandon Currell"
+  aka: "Yeti"
+  avatar: ""
+  title: "Developer"
+  about: >
+    I am a self-taught, self-employed software engineer living in the United
+    Kingdom, primarily working with command-line / backend applications. I know
+    Java, C#, Python and a handful of other non-programming languages, and have
+    foul vocabulary.
+  sites:
+    github: "https://github.com/BranicYeti"
+
+- name: "Mazen Kotb"
+  aka: "mkotb"
+  avatar: ""
+  title: "Java Developer"
+  about: >
+    I am currently a Canadian software engineer and have been programming for
+    6 years. Although I've stuck my hand into a bit of everything, my expertise
+    is primarily using JVM-based languages for backend infrastructure. Outside
+    of computer science, I love writing, talking in front of large groups and
+    exploring Vancouver.
+  sites:
+    github: "https://github.com/mkotb"
+    telegram: "https://t.me/mazenk"
+
+- name: "Vilsol"
+  aka: ""
+  avatar: ""
+  title: "Caffeine -> Uptime Converter"
+  about: >
+    A software engineer with a passion for virtualization. Mostly spent time as
+    a full-stack developer in many languages, frameworks and platforms, but
+    recently more focused on systems, operations and infrastructure. Left
+    university to pursue my career as well as many side projects, including
+    this one.
+  sites:
+    github: "https://github.com/Vilsol"
+    keybase: "https://keybase.io/vilsol"
+
+# - name: ""
+#   aka: "mattrick"
+#   avatar: ""
+#   title: ""
+#   about: >
+#   sites: []
+#
+# - name: ""
+#   aka: "darkseraphim"
+#   avatar: ""
+#   title: ""
+#   about: >
+#   sites: []

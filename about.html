@@ -2,4 +2,7 @@
 layout: default
 ---
 
-About
+{% for developer in site.data.team %}
+	{% include biography data=developer %}
+	<br />
+{% endfor %}

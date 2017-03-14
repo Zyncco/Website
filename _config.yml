@@ -3,9 +3,6 @@ defaults:
     meta-keywords: "zync, cloud, encryption, clipboard"
     title: "Zync"
 
-local:
-    assets: "/assets"
-
-remote:
-    assets: "//assets.zync.co"
-
+assets:
+    local: "/assets"
+    remote: "//assets.zync.co"
