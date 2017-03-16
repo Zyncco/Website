@@ -11,6 +11,8 @@ body
 
 #navigation
 {
+	padding: 5px;
+
 	height: 5em;
 	width: 100%;
 
@@ -18,4 +20,9 @@ body
 	color: #FFFFFF;
 
 	font-family: 'Open Sans', sans-serif;
+}
+
+#navigation .logo
+{
+	height: inherit;
 }
