@@ -11,9 +11,9 @@ body
 
 #navigation
 {
-	padding: 5px;
+	padding: 10px;
 
-	height: 5em;
+	height: 4em;
 	width: 100%;
 
 	background-color: $colorDark;
@@ -22,7 +22,14 @@ body
 	font-family: 'Open Sans', sans-serif;
 }
 
-#navigation .logo
+#nav-logo
 {
 	height: inherit;
+}
+
+#navigation a
+{
+	display: block;
+
+	text-decoration: none;
 }
