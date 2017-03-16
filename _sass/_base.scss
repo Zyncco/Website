@@ -8,3 +8,13 @@ body
 {
 	background-color: $colorBase;
 }
+
+#navigation
+{
+	position: absolute;
+
+	height: 2em;
+	width: 100%;
+
+	background-color: $colorDark;
+}
