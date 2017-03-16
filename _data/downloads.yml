@@ -1,0 +1,7 @@
+android:
+  official: "// Play Store URL //"
+  unstable: "// Travis `latest` URL //"
+
+chrome:
+  official: "// Chrome Store URL //"
+  unstable: "// Travis `latest` URL //"

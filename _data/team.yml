@@ -51,16 +51,26 @@
     github: "https://github.com/Vilsol"
     keybase: "https://keybase.io/vilsol"
 
-# - name: ""
-#   aka: "mattrick"
-#   avatar: ""
-#   title: ""
-#   about: >
-#   sites: []
-#
-# - name: ""
-#   aka: "darkseraphim"
-#   avatar: ""
-#   title: ""
-#   about: >
-#   sites: []
+- name: "Matt"
+  aka: "mattrick"
+  avatar: ""
+  title: "Developer McDeveloperface"
+  about: >
+    I am a designer and developer from sunny Southern California. I mostly work
+    with web stuff.
+  sites:
+    github: "https://github.com/devmattrick"
+    keybase: "https://keybase.io/mattrick"
+    twitter: "https://twitter.com/devmattrick"
+
+- name: "Mark Hendriks"
+  aka: "darkseraphim"
+  avatar: ""
+  title: "Backend Developer"
+  about: >
+    I am a Computer Science student at University of Technology in Eindhoven,
+    mainly spending my time experimenting with new solutions and languages,
+    always aiming to make things fast and scalable.
+  sites:
+    github: "https://github.com/DarkSeraphim"
+    linkedin: "https://linkedin.com/in/mark-hendriks-60029391"
