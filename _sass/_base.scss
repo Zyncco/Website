@@ -11,8 +11,12 @@ body
 
 #navigation
 {
-	height: 3em;
+	height: 5em;
 	width: 100%;
 
-	background-color: $colorDark;
+	position: absolute;
+
+	color: #FFFFFF;
+
+	font-family: 'Open Sans', sans-serif;
 }
