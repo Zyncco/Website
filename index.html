@@ -1,5 +1,63 @@
 ---
-layout: default
 ---
 
-Index
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+
+		<meta name="author" content="Zync Development Team" />
+		<meta name="description" content="{% if page.meta-description %}{{ page.meta-description }}{% else %}{{ site.defaults.meta-description }}{% endif %}" />
+		<meta name="keywords" content="{% if page.meta-keywords %}{{ page.meta-keywords }}{% else %}{{ site.defaults.meta-keywords}}{% endif %}" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Zync - Coming Soon!</title>
+
+		<link rel="stylesheet" type="text/css" href="{{ site.assets.local }}/main.css" />
+		<style>
+#splash
+{
+	width: 30em;
+	height: auto;
+
+	position: absolute;
+
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+
+	color: #FFFFFF;
+}
+
+#splash-title
+{
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+#splash-desc
+{
+	font-size: 1.5em;
+}
+		</style>
+	</head>
+	<body>
+		<div id="splash">
+			<!-- To be moved to remote location upon completion. -->
+			<embed src="{{ site.assets.local }}/img/logo.svg" />
+			<div>
+				<div id="splash-title">Zync</div>
+				<div id="splash-desc">End-to-end encrypted cloud clipboard.</div>
+				<br />
+				Zync is a collection of applications and extensions that allow you to seamlessly and securely
+				synchronize your clipboard data between devices. We are currently underway with development, and will
+				be announcing our release in the near future. Watch this space!
+			</div>
+		</div>
+	</body>
+</html>
