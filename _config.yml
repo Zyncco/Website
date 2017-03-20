@@ -1,8 +1,10 @@
 defaults:
-    meta-description: "Zync | End-to-end encrypted cloud clipboard for dummies!"
-    meta-keywords: "zync, cloud, encryption, clipboard"
-    title: "Zync"
+  title: "Zync"
+  description: "Secure clipboard syncing between your devices."
+  keywords: "zync, cloud, encryption, clipboard, sync, secure"
 
-assets:
-    local: "/assets"
-    remote: "//assets.zync.co"
+sass:
+  sass_dir: _sass
+  style: compressed
+
+url: "https://zync.co"
