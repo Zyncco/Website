@@ -1,0 +1,57 @@
+header.navbar {
+  height: $navbar-height;
+  background-color: $navbar-background;
+  color: $navbar-color;
+  position: relative;
+  z-index: 5;
+
+  .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+
+  .branding {
+    height: 100%;
+    flex: 1;
+    padding: 8px 0;
+
+    img {
+      height: 100%;
+      vertical-align: middle;
+    }
+    .branding-text {
+      font-size: 2em;
+      vertical-align: middle;
+      margin-left: 0.2em;
+      font-weight: bold;
+    }
+  }
+  nav.navbar-nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+
+      li {
+        display: inline-block;
+        height: 100%;
+
+        a {
+          color: #FFF;
+          height: 100%;
+          display: block;
+          line-height: $navbar-height;
+          vertical-align: middle;
+          padding: 0 15px;
+          transition: background 0.3s ease-in-out;
+          font-size: 16px;
+
+          &:hover {
+            background-color: darken($navbar-background, 5%);
+          }
+        }
+      }
+    }
+  }
+}

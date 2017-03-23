@@ -4,7 +4,7 @@ defaults:
   keywords: "zync, cloud, encryption, clipboard, sync, secure"
 
 sass:
-  sass_dir: _sass
+  sass_dir: _scss
   style: compressed
 
 url: "https://zync.co"
