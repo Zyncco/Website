@@ -1,12 +1,26 @@
 #masthead {
-  padding: 5em 0;
+  padding-top: 5em;
+  padding-bottom: 4em;
   text-align: center;
   background-color: $color-primary;
   color: #FFF;
 }
 
 .masthead-image {
-  max-width: 300px;
+  max-width: 15em;
   margin: 0 auto;
   width: 100%;
+}
+
+.masthead-text h1 {
+  margin-bottom: 0;
+}
+
+.masthead-transition {
+  height: 5em;
+
+  svg {
+    height: 100%;
+    width: 100%;
+  }
 }
