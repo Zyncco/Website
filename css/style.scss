@@ -5,6 +5,13 @@
 @import "variables";
 
 // Load various components
+@import "footer";
 @import "global";
 @import "masthead";
 @import "navigation";
+
+//Load page-specific styles
+@import "pages/home";
+
+//Load vendor components
+@import "vendor/flex-grid";

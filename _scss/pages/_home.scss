@@ -1,0 +1,30 @@
+#overview {
+  margin-top: 4em;
+  text-align: center;
+
+  h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+  }
+  p {
+    color: lighten($color-text, 10%);
+    margin: 0;
+  }
+  .feature-image {
+    background-color: $color-primary;
+    padding: 1.5em;
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+    margin: 0 auto;
+  }
+}
+#downloads {
+  text-align: center;
+  margin-top: 4em;
+
+  h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+}

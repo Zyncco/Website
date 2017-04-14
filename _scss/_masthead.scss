@@ -25,3 +25,39 @@
     width: 100%;
   }
 }
+
+#uploadPath1 {
+  animation-name: upload1;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  stroke-dasharray: 76;
+  animation-fill-mode: forwards;
+}
+
+#uploadPath2, #uploadPath3 {
+  animation-name: upload2;
+  stroke-dasharray: 112;
+  stroke-dashoffset: -112;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes upload1 {
+  from {
+    stroke-dashoffset: -76;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes upload2 {
+  from {
+    stroke-dashoffset: -112;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
